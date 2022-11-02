@@ -14,6 +14,8 @@ public class ER_ZombieScripts : MonoBehaviour
 
     private bool itsAlive;
 
+    private ER_ScoreController score;
+
 
     private void Start()
     {
@@ -22,6 +24,7 @@ public class ER_ZombieScripts : MonoBehaviour
 
         itsAlive = true;
 
+        score = FindObjectOfType<ER_ScoreController>();
     }
 
     private void Update()
@@ -43,6 +46,7 @@ public class ER_ZombieScripts : MonoBehaviour
 
     void Die()
     {
+        score.IncScore(1);
 
         itsAlive = false;
 
