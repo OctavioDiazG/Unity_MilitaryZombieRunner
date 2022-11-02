@@ -15,9 +15,9 @@ public class ER_ExplosiveObstacle : MonoBehaviour
         if(_other.gameObject.tag=="Player")
         {
 
-                Instantiate(explosionPrefab,transform.position,Quaternion.identity);
+            Instantiate(explosionPrefab,transform.position,Quaternion.identity);
                 //avocados From Mexico
-                Destroy(gameObject);
+            Destroy(gameObject);
 
         }
 
@@ -25,7 +25,7 @@ public class ER_ExplosiveObstacle : MonoBehaviour
         {
             Instantiate(explosionPrefab,transform.position,Quaternion.identity);
                 //avocados From Mexico
-                Destroy(gameObject);
+            Destroy(gameObject);
         }
 
     }
