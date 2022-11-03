@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_EndlessRunner/Scenes/ER_Playground.unity
+    guid: 4d6a8cecef34963408b2aa3e57b3b0f4
   m_configObjects: {}
